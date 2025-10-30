@@ -1,0 +1,193 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #2a9d8f;
+  color: white;
+  padding: 40px 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav {
+  background-color: #264653;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e9c46a;
+}
+
+/* Hero Section */
+.hero {
+  padding: 60px 20px;
+  background-color: #f0f4f8;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.hero button {
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #21867a;
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin: 50px 10px;
+}
+
+.card {
+  background-color: white;
+  width: 170px;
+  padding: 50px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #e0f2f1;
+}
+
+/* Features Section */
+.features {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.feature {
+  background-color: white;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 20px;
+  background-color: #f0f4f8;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 450px;
+  margin: auto;
+}
+
+input, textarea, button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #2a9d8f;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #21867a;
+}
+
+/* Footer */
+footer {
+  background-color: #264653;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+
+.dark-mode .card,
+.dark-mode .feature {
+  background-color: #1e1e1e;
+  color: #eee;
+}
+
+.dark-mode nav {
+  background-color: #111;
+}
+
+.dark-mode footer {
+  background-color: #111;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+}

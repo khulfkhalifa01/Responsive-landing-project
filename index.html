@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Webpage – David</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>David's Responsive Webpage</h1>
+    <p>Learning modern layouts, responsiveness, and interactivity</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home" class="hero">
+    <h2>Bringing Webpages to Life</h2>
+    <p>This project demonstrates responsive design, Flexbox/Grid layouts, and JavaScript interactivity.</p>
+    <button id="themeToggle">Toggle Theme 🌗</button>
+  </section>
+
+  <section id="about" class="cards">
+    <div class="card">Home</div>
+    <div class="card">About</div>
+    <div class="card">Projects</div>
+    <div class="card">Contact</div>
+  </section>
+
+  <section id="projects" class="features">
+    <h2>Key Features</h2>
+    <div class="feature-grid">
+      <div class="feature">Responsive Layout</div>
+      <div class="feature">Clean Design</div>
+      <div class="feature">Interactive Elements</div>
+      <div class="feature">User-Friendly</div>
+      <div class="feature">Modern Styling</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact David</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="email" id="email" placeholder="Your Email">
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 David | Built with 💻 and ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
