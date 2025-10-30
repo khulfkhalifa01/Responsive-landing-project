@@ -32,7 +32,7 @@ This project is a **responsive and interactive webpage** built with **HTML, CSS,
 
 ## 🌟 Live Demo
 
-[View Live Project](https://khulfkhalifa01.github.io/frontend-training-projects/week2-layouts-interaction/)
+[View Live Project](https://khulfkhalifa01.github.io/Responsive-landing-project/)
 
 ---
 
